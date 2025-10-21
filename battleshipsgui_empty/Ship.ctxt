@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Ship
+comment0.text=\r\n\ This\ class\ represents\ a\ ship\ in\ the\ Battleship\ game.\r\n\ It\ tracks\ their\ type,\ position,\ and\ the\ damage\ state.\r\n\ Serializable\ for\ game\ saving/loading.\r\n
+comment1.params=row\ col
+comment1.target=boolean\ isAt(int,\ int)
+comment1.text=This\ checks\ if\ the\ ship\ occupies\ a\ given\ coordinate.
+comment2.params=row\ col
+comment2.target=boolean\ recordHit(int,\ int)
+comment2.text=This\ records\ a\ hit\ at\ a\ specific\ coordinate.
+comment3.params=
+comment3.target=boolean\ isSunk()
+comment3.text=This\ determines\ if\ the\ ship\ is\ completely\ sunk.
+comment4.params=
+comment4.target=Ship.Type\ getType()
+comment5.params=
+comment5.target=java.lang.String\ getName()
+numComments=6

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ComputerPlayer
+comment0.text=\r\n\ This\ class\ is\ the\ computer\ player\ with\ basic\ hunting\ AI.\r\n\ It\ tracks\ last\ hit\ to\ improve\ targeting.\r\n
+comment1.params=name\ board\ shipNames
+comment1.target=ComputerPlayer(java.lang.String,\ Board,\ java.lang.String[])
+comment2.params=opponentBoard
+comment2.target=int[]\ makeMove(Board)
+comment2.text=\r\n\ Generates\ computer's\ move\r\n\ -\ Hunts\ adjacent\ cells\ after\ hits\r\n\ -\ Random\ shots\ otherwise\r\n
+comment3.params=row\ col\ wasHit
+comment3.target=void\ recordShotResult(int,\ int,\ boolean)
+comment3.text=Updates\ AI\ state\ after\ each\ shot
+numComments=4
